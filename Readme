@@ -1,0 +1,31 @@
+				Machine Learning Project.(CS403)
+				   Malicious URL Detection
+
+Navneet Agarwal - 140100090
+Sohum Dhar - 140070001
+Tanmay Parekh - 140100011
+C Vishvesh - 140050031
+
+
+To run the code:
+
+Simply type python SVM.py
+
+The first answer comes that of SVM, then perceptron and then Neural Network.
+The dataset used is named Day0.svm (it is in the svm format). 
+For the train and test data :
+
+We have chosen a part of the data for training and the a part of the data for testing(But they are disjoint).
+The number of points used here are less(16000) but they can be easily extended to extremely large datasets.
+
+Explanation:
+
+In the SVM.py in the main function first the SVM code is executed.
+
+Then the csv is created from the svm file by executing the Dimentionality_Reduction.py by the command os.system('python Dimentionality_Reduction.py').
+
+Then perceptron update algorithm is executed by executing the file Perceptron.py.
+
+And finally the neural network code is run.
+
+Note that we have ourselves implemented the perceptron and neural network code.
